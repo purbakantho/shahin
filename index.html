@@ -356,9 +356,9 @@ body {margin:0;font-family:Arial}
 }
 </style>
 
-<div class="navbar">
-  <a href="#home">হোম</a>
-    <a href="https://shahin.purbakantho.com/about-me.html">আমার সম্পর্কে </a>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">হোম</a>
+ <a href="https://shahin.purbakantho.com/about-me.html">আমার সম্পর্কে </a>
  <a href="https://shahin.purbakantho.com/service.html">সেবা সমূহ</a>
   <a href="https://shahin.purbakantho.com/blog.html">ব্লগ</a>
   <a href="https://it.purbakantho.com/">আইটি</a>
@@ -368,7 +368,7 @@ body {margin:0;font-family:Arial}
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
- <a href="https://www.purbakantho.com/p/bangla-bijoy-to-unicode-converter-web.html">কনভার্টার</a>
+<a href="https://www.purbakantho.com/p/bangla-bijoy-to-unicode-converter-web.html">কনভার্টার</a>
  <a href="https://www.purbakantho.com/">নিউজ</a>
   <a href="https://radio.purbakantho.com/">রেডিও</a>
   <a href="https://tv.purbakantho.com/">টিভি</a>
@@ -378,7 +378,23 @@ body {margin:0;font-family:Arial}
  <a href="https://helpline.purbakantho.com/" class="split">হেল্পলাইন</a>
     </div>
   </div> 
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+
+<div style="padding-left:16px">
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
 				
 	            <div data-elementor-type="wp-page" data-elementor-id="18" class="elementor elementor-18" data-elementor-post-type="page">
 				<div class="elementor-element elementor-element-b89b9a3 home e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="b89b9a3" data-element_type="container" id="home" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
