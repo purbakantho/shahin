@@ -363,17 +363,18 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 <header>
   <div class="logo">
-    <img src="https://via.placeholder.com/40" alt="Logo">
+    <img src="https://i.picasion.com/pic92/73bbae90806dbb11b816cbefa0ddebca.gif" alt="Logo">
 
   </div>
 
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About Me</a>
-    <a href="#">Service</a>
-    <a href="#">Blog</a>
-    <a href="#">It</a>
-    <a href="#">Helpline</a>
+     <a href="https://shahin.purbakantho.com/">Home</a>
+  <a href="https://shahin.purbakantho.com/about-me.html">About Me</a>
+  <a href="https://shahin.purbakantho.com/service.html">Service</a>
+  <a href="https://shahin.purbakantho.com/blog.html">Blog</a>
+  <a href="https://it.purbakantho.com/">It</a>
+  <a href="https://helpline.purbakantho.com/">Helpline</a>
+  <a href="https://api.whatsapp.com/send/?phone=%2B8801711796839" class="contact-btn">Contact Me</a>
   </nav>
 
   <a href="#" class="contact-btn">Contact Me</a>
@@ -386,14 +387,15 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 </header>
 
 <div class="drawer" id="drawerMenu">
-  <a href="#">Home</a>
-  <a href="#">About Me</a>
-  <a href="#">Service</a>
-  <a href="#">Blog</a>
-  <a href="#">It</a>
-  <a href="#">Helpline</a>
-  <a href="#" class="contact-btn">Contact Me</a>
+  <a href="https://shahin.purbakantho.com/">Home</a>
+  <a href="https://shahin.purbakantho.com/about-me.html">About Me</a>
+  <a href="https://shahin.purbakantho.com/service.html">Service</a>
+  <a href="https://shahin.purbakantho.com/blog.html">Blog</a>
+  <a href="https://it.purbakantho.com/">It</a>
+  <a href="https://helpline.purbakantho.com/">Helpline</a>
+  <a href="https://api.whatsapp.com/send/?phone=%2B8801711796839" class="contact-btn">Contact Me</a>
 </div>
+
 
 <div class="overlay" id="overlay"></div>
 
