@@ -342,12 +342,8 @@ margin: 0;
      
        </div>	
 
-
+<center class='mb-sm-1 small'>
 <div class="date-box">
-  <h2>বর্তমান তারিখ ও সময়</h2>
-  <p id="englishDate"></p>
-  <p id="banglaDate"></p>
-  <p id="time"></p>
 </div>
 
 <style>
@@ -419,11 +415,11 @@ margin: 0;
 
     const weekday = banglaWeekdays[now.getDay()];
     const bDate = getBanglaDate(now);
-    document.getElementById('banglaDate').innerText = "বাংলা: " + weekday + ", " + bDate.day + " " + bDate.month + " " + bDate.year + " বঙ্গাব্দ";
+    document.getElementById('banglaDate').innerText = " " + weekday + ", " + bDate.day + " " + bDate.month + " " + bDate.year + " বঙ্গাব্দ";
 
     const timeStr = now.toLocaleTimeString('en-US', { hour12: true });
     const banglaTime = toBanglaNumber(now.getHours()) + ":" + toBanglaNumber(now.getMinutes()) + ":" + toBanglaNumber(now.getSeconds());
-    document.getElementById('time').innerText = "সময়: " + banglaTime + " (" + timeStr + ")";
+    document.getElementById('time').innerText = " " + banglaTime + " (" + timeStr + ")";
   }
 
   setInterval(updateDateTime, 1000);
