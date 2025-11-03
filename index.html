@@ -350,22 +350,36 @@ margin: 0;
 </div>
 
 <style>
+  body {
+    background-color: #e6ccff; /* হালকা বেগুনি ব্যাকগ্রাউন্ড */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
   .date-box {
-    background: #ffffff;
-    display: inline-block;
-    padding: 25px 45px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    font-family: Arial, Kalpurush, Noto Sans Bengali, sans-serif;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #663399;
+    padding: 25px 50px;
+    border-radius: 20px;
     text-align: center;
-    font-family: Kalpurush, Noto Sans Bengali, Arial, sans-serif;
+    color: #000000; /* কালো লেখা */
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
   }
+
   h2 {
-    color: #007bff;
-    margin-bottom: 10px;
+    color: #000000;
+    margin-bottom: 12px;
+    font-size: 26px;
   }
+
   p {
     font-size: 20px;
-    margin: 6px 0;
+    margin: 8px 0;
   }
 </style>
 
@@ -428,6 +442,7 @@ margin: 0;
   setInterval(updateDateTime, 1000);
   updateDateTime();
 </script>
+
 
 		
 				<div data-elementor-type="wp-page" data-elementor-id="18" class="elementor elementor-18" data-elementor-post-type="page">
